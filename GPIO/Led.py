@@ -13,4 +13,4 @@ for  x in range ( 0, 10):
     gpio.output(12, False)
     time.sleep(0.5)
 
-print «Ejecución finalizada»
+print ("Ejecución finalizada")
