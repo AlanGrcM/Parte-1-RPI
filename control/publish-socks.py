@@ -1,4 +1,4 @@
-import paho.mqtt.client as paho
+import paho.mqtt.client as mqtt
 import time
 
 broker="192.168.100.180"
