@@ -2,9 +2,9 @@ import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM) #Librerios del GPIO de la raspberrypi4
 
-GPIO.setup(22, GPIO.OUT) #Pin 22 definido como salida
+GPIO.setup(18, GPIO.OUT) #Pin 18 definido como salida
 
-Led= GPIO.PWM(22, 100) #objeto en el pin 22 que gobierne la modulación PWM
+Led= GPIO.PWM(18, 100) #objeto en el pin 18 que gobierne la modulación PWM
 Led.start(100)
 
 Led.ChangeDutyCycle( 50 ) #Cambio del ciclo de trabajo 
