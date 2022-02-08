@@ -7,7 +7,7 @@ GPIO.setup(24, GPIO.OUT) #Pin 24 definido como salida
 Led= GPIO.PWM(24, 100) #objeto en el pin 24 que gobierne la modulación PWM
 Led.start(100)
 
-Led.ChangeDutyCycle( x ) #Cambio del ciclo de trabajo 
+Led.ChangeDutyCycle( 50 ) #Cambio del ciclo de trabajo 
 print("X es un valor entre 0 y 100")
 
 while True:
