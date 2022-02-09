@@ -1,6 +1,6 @@
 from gpiozero import Servo
 import RPi.GPIO as GPIO
-import time
+from time import sleep
 import math
 from gpiozero.pins.pigpio import PiGPIOFactory
 
