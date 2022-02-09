@@ -1,4 +1,4 @@
-import servo
+from gpiozero import Servo
 import RPi.GPIO as GPIO
 import time
 import math
